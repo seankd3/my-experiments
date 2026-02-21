@@ -1,0 +1,9 @@
+{
+  "name": "the-void",
+  "version": "0.1.0",
+  "description": "A VR environment where Claude IS the space. Speech becomes geometry. The void responds.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
