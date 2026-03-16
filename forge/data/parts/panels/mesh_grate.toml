@@ -1,0 +1,22 @@
+[part]
+id = "mesh_grate"
+display_name = "Mesh / Grate"
+category = "Panel"
+subcategory = "Mesh"
+description = "Non-watertight engine bay ventilation, walkways"
+
+[geometry]
+thickness_mm = 0
+min_attachment_points = 3
+max_attachment_points = 4
+
+[physics]
+mass_per_sqmeter_kg = 3.0
+watertight = false
+material = "steel_perforated"
+
+[rendering]
+color = "#99AA99"
+metalness = 0.3
+roughness = 0.8
+opacity = 0.6

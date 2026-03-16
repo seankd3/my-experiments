@@ -1,0 +1,22 @@
+[part]
+id = "standard_sheet"
+display_name = "Standard Sheet"
+category = "Panel"
+subcategory = "Sheet"
+description = "2mm boat hull skin, car body panels"
+
+[geometry]
+thickness_mm = 2
+min_attachment_points = 3
+max_attachment_points = 4
+
+[physics]
+mass_per_sqmeter_kg = 5.4
+watertight = true
+material = "aluminum_5052_h32"
+
+[rendering]
+color = "#8899AA"
+metalness = 0.3
+roughness = 0.6
+opacity = 0.9

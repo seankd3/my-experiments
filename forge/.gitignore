@@ -1,0 +1,31 @@
+# Godot 4 ignores
+.godot/
+*.import
+
+# .NET / C# build
+.mono/
+bin/
+obj/
+*.user
+*.suo
+*.userprefs
+*.csproj.user
+
+# NuGet
+packages/
+*.nupkg
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.sln.DotSettings.user
+
+# OS
+.DS_Store
+Thumbs.db
+*~
+
+# Export
+export/
+*.pck

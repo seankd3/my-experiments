@@ -1,0 +1,25 @@
+[part]
+id = "stringer"
+display_name = "Stringer"
+category = "Frame"
+subcategory = "Straight"
+description = "Small hat-section, lightweight skin stiffener"
+icon = "icons/stringer.png"
+
+[geometry]
+cross_section = "hat_section"
+width_mm = 25
+height_mm = 20
+wall_thickness_mm = 1.5
+min_length_nodes = 1
+max_length_nodes = 8
+
+[physics]
+mass_per_meter_kg = 1.2
+yield_strength_mpa = 276
+material = "aluminum_6061_t6"
+
+[rendering]
+color = "#7799AA"
+metalness = 0.3
+roughness = 0.7

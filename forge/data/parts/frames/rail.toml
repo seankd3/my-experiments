@@ -1,0 +1,25 @@
+[part]
+id = "rail"
+display_name = "Rail"
+category = "Frame"
+subcategory = "Straight"
+description = "Heavy C-channel for truck frame rails"
+icon = "icons/rail.png"
+
+[geometry]
+cross_section = "c_channel_heavy"
+width_mm = 80
+height_mm = 120
+wall_thickness_mm = 6
+min_length_nodes = 1
+max_length_nodes = 16
+
+[physics]
+mass_per_meter_kg = 12.0
+yield_strength_mpa = 350
+material = "steel_a36"
+
+[rendering]
+color = "#445566"
+metalness = 0.4
+roughness = 0.6

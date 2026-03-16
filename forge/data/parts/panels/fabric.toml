@@ -1,0 +1,22 @@
+[part]
+id = "fabric"
+display_name = "Fabric"
+category = "Panel"
+subcategory = "Fabric"
+description = "Ultralight aircraft wing covering, canvas"
+
+[geometry]
+thickness_mm = 0
+min_attachment_points = 3
+max_attachment_points = 4
+
+[physics]
+mass_per_sqmeter_kg = 0.5
+watertight = false
+material = "dacron"
+
+[rendering]
+color = "#CCBB99"
+metalness = 0.0
+roughness = 0.9
+opacity = 0.8

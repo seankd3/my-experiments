@@ -1,0 +1,25 @@
+[part]
+id = "spar"
+display_name = "Main Spar"
+category = "Frame"
+subcategory = "Straight"
+description = "Heavy I-beam, wing main spar or keel"
+icon = "icons/spar.png"
+
+[geometry]
+cross_section = "i_beam"
+width_mm = 60
+height_mm = 100
+wall_thickness_mm = 4
+min_length_nodes = 1
+max_length_nodes = 16
+
+[physics]
+mass_per_meter_kg = 8.0
+yield_strength_mpa = 503
+material = "aluminum_7075_t6"
+
+[rendering]
+color = "#334455"
+metalness = 0.3
+roughness = 0.6

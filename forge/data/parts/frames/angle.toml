@@ -1,0 +1,25 @@
+[part]
+id = "angle"
+display_name = "Angle"
+category = "Frame"
+subcategory = "Straight"
+description = "L-section for chine rails and edge stiffeners"
+icon = "icons/angle.png"
+
+[geometry]
+cross_section = "l_section"
+width_mm = 30
+height_mm = 30
+wall_thickness_mm = 3
+min_length_nodes = 1
+max_length_nodes = 8
+
+[physics]
+mass_per_meter_kg = 2.5
+yield_strength_mpa = 276
+material = "aluminum_6061_t6"
+
+[rendering]
+color = "#778866"
+metalness = 0.3
+roughness = 0.7

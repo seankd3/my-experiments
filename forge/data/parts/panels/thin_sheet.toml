@@ -1,0 +1,22 @@
+[part]
+id = "thin_sheet"
+display_name = "Thin Sheet"
+category = "Panel"
+subcategory = "Sheet"
+description = "1mm aircraft skin, light fairings"
+
+[geometry]
+thickness_mm = 1
+min_attachment_points = 3
+max_attachment_points = 4
+
+[physics]
+mass_per_sqmeter_kg = 2.7
+watertight = true
+material = "aluminum_2024_t3"
+
+[rendering]
+color = "#AABBCC"
+metalness = 0.4
+roughness = 0.5
+opacity = 0.9

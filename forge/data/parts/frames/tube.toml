@@ -1,0 +1,25 @@
+[part]
+id = "tube"
+display_name = "Tube"
+category = "Frame"
+subcategory = "Straight"
+description = "Round hollow section for trusses and roll cages"
+icon = "icons/tube.png"
+
+[geometry]
+cross_section = "round_hollow"
+width_mm = 30
+height_mm = 30
+wall_thickness_mm = 2
+min_length_nodes = 1
+max_length_nodes = 8
+
+[physics]
+mass_per_meter_kg = 2.0
+yield_strength_mpa = 310
+material = "chromoly_4130"
+
+[rendering]
+color = "#668888"
+metalness = 0.4
+roughness = 0.5

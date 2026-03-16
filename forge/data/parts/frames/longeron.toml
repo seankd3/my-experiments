@@ -1,0 +1,25 @@
+[part]
+id = "longeron"
+display_name = "Longeron"
+category = "Frame"
+subcategory = "Straight"
+description = "Medium C-channel, primary longitudinal member"
+icon = "icons/longeron.png"
+
+[geometry]
+cross_section = "c_channel"
+width_mm = 40
+height_mm = 60
+wall_thickness_mm = 3
+min_length_nodes = 1
+max_length_nodes = 12
+
+[physics]
+mass_per_meter_kg = 3.5
+yield_strength_mpa = 503
+material = "aluminum_7075_t6"
+
+[rendering]
+color = "#556677"
+metalness = 0.3
+roughness = 0.7

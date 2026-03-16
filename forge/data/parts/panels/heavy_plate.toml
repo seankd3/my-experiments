@@ -1,0 +1,22 @@
+[part]
+id = "heavy_plate"
+display_name = "Heavy Plate"
+category = "Panel"
+subcategory = "Plate"
+description = "4mm ship hull below waterline, armor plating"
+
+[geometry]
+thickness_mm = 4
+min_attachment_points = 3
+max_attachment_points = 4
+
+[physics]
+mass_per_sqmeter_kg = 10.8
+watertight = true
+material = "steel_a36"
+
+[rendering]
+color = "#667788"
+metalness = 0.5
+roughness = 0.5
+opacity = 0.95
